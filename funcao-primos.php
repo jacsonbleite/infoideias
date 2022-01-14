@@ -11,7 +11,8 @@ function primos(int $inicial, int $final): string
 
     $resultado = implode(', ', $primo);
 
-    return (string) "Encontrados 5 números primos, são eles: " . $resultado;
+    //return (string) "Encontrados 5 números primos, são eles: " . $resultado;
+    return (string) "Encontrados " . count($primo) . " números primos, são eles: " . $resultado;
 }
 
 echo primos(1, 20);
